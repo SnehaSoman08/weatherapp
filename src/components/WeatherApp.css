@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('https://img.freepik.com/free-photo/fog-covered-trees-with-purple-sunset-overhead_395237-223.jpg?t=st=1706597671~exp=1706598271~hmac=de76169b1a3f0c87b5e930c715517cd22277943b7bbf277739aa3780b8a85a70') center/cover fixed;
+    font-family: 'Arial', sans-serif;
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.weather-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+    margin-top: 20px; /* Add margin to push down the entire weather app */
+}
+
+h1 {
+    margin-bottom: 30px; /* Add margin to push down the heading */
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px; /* Add margin to push down the form */
+}
+
+.label-input-container {
+    margin-bottom: 10px;
+    margin-top: 10px; /* Add margin to the container */
+}
+
+label {
+    display: block;
+    margin-right: 10px; /* Add margin to the right of the label */
+    margin-bottom: 50px;
+}
+
+input {
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px; /* Add margin to the right of the input */
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 50px;
+}
+
+button {
+    padding: 8px;
+    background-color: #4caf50; /* Green background color for the button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 120px;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green color on hover */
+}
+
+.weather-info {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line if they exceed the container width */
+    justify-content: center; /* Center items horizontally */
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.weather-info p {
+    margin: 10px; /* Add spacing around each paragraph inside .weather-info */
+    
+}
+
+.weather-info img,i {
+    width: 50px; /* Set the width of the image as needed */
+    height: 50px; /* Set the height of the image as needed */
+}
+
